@@ -1,0 +1,23 @@
+{
+  "name": "genpark-competitor-ad-objection-counter-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Objections mapping handler against competitor ads.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "competitor",
+    "marketing"
+  ],
+  "inputs": {
+    "competitor_hook": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "defense_pitch": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
